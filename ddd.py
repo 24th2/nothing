@@ -4,8 +4,8 @@ import sys
 
 # Configuration settings - change these values as needed
 DEFAULT_SETTINGS = {
-    "server_ip": "paradisbox.pikamc.vn",
-    "server_port": 25532,
+    "server_ip": "localhost",
+    "server_port": 25565,
     "packet_size": 1000000,
     "interval": 0.0  # Set to 0 for maximum speed
 }
@@ -153,4 +153,5 @@ def main():
     sender.start_sending()
 
 if __name__ == "__main__":
+
     main()
